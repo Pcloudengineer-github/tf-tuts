@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_vm" {
- ami           = var.ami //Ubuntu AMI
+ ami           = var.ami //linux AMI
  instance_type = var.instance_type
  
 
